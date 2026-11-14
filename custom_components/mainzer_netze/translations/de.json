@@ -1,0 +1,45 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Anmeldung Mainzer Netze Portal",
+        "description": "Melde dich mit deinen Zugangsdaten für das Messstellenportal msb.mainzer-netze.de an.",
+        "data": {
+          "username": "Benutzername",
+          "password": "Passwort"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Passwort erneut eingeben",
+        "description": "Das Portal hat das gespeicherte Passwort für {username} abgelehnt. Bitte gib das aktuelle Passwort ein.",
+        "data": {
+          "password": "Passwort"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Benutzername oder Passwort ungültig.",
+      "captcha_required": "Das Portal verlangt ein Captcha, meist nach fehlgeschlagenen Anmeldeversuchen. Melde dich einmal im Browser auf msb.mainzer-netze.de an und versuche es dann erneut.",
+      "cannot_connect": "Das Portal ist nicht erreichbar. Bitte später erneut versuchen.",
+      "no_meters": "Die Anmeldung hat funktioniert, aber diesem Konto sind keine Zähler zugeordnet.",
+      "unknown": "Unerwartete Antwort vom Portal. Details stehen im Log."
+    },
+    "abort": {
+      "already_configured": "Dieses Konto ist bereits eingerichtet.",
+      "reauth_successful": "Erneute Anmeldung erfolgreich."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "data_until": {
+        "name": "Daten verfügbar bis"
+      },
+      "last_import": {
+        "name": "Letzter Portal-Import"
+      },
+      "last_day": {
+        "name": "{series} letzter Tag"
+      }
+    }
+  }
+}

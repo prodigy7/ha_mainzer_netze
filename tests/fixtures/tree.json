@@ -1,0 +1,29 @@
+{
+ "_comment": "Real indicatorGroupList.json response (anonymized).",
+ "id": "00000000-0000-4000-8000-000000000000",
+ "type": "rootIndicatorGroup",
+ "text": "/",
+ "state": {
+  "disabled": false,
+  "opened": true,
+  "selected": false
+ },
+ "children": [
+  {
+   "locationNo": "DE0000000000000000000000000000001",
+   "a_attr": {
+    "checkbox": false,
+    "title": ""
+   },
+   "children": [],
+   "id": "00000000-0000-4000-8000-000000000001",
+   "state": {
+    "disabled": false,
+    "opened": false,
+    "selected": true
+   },
+   "text": "Example Customer",
+   "type": "indicatorPOWER"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Mainzer Netze portal login",
+        "description": "Log in with your credentials for the metering portal at msb.mainzer-netze.de.",
+        "data": {
+          "username": "Username",
+          "password": "Password"
+        }
+      },
+      "reauth_confirm": {
+        "title": "Re-enter password",
+        "description": "The portal rejected the stored password for {username}. Please enter the current password.",
+        "data": {
+          "password": "Password"
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid username or password.",
+      "captcha_required": "The portal requires a captcha, usually after failed login attempts. Log in once at msb.mainzer-netze.de in your web browser, then try again.",
+      "cannot_connect": "Cannot reach the portal. Please try again later.",
+      "no_meters": "Login worked, but no meters are assigned to this account.",
+      "unknown": "Unexpected response from the portal. Check the logs for details."
+    },
+    "abort": {
+      "already_configured": "This account is already configured.",
+      "reauth_successful": "Re-authentication was successful."
+    }
+  },
+  "entity": {
+    "sensor": {
+      "data_until": {
+        "name": "Data available until"
+      },
+      "last_import": {
+        "name": "Last portal import"
+      },
+      "last_day": {
+        "name": "{series} last day"
+      }
+    }
+  }
+}

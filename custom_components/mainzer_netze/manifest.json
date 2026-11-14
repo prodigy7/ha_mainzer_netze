@@ -1,0 +1,13 @@
+{
+  "domain": "mainzer_netze",
+  "name": "Mainzer Netze",
+  "codeowners": ["@prodigy7"],
+  "config_flow": true,
+  "dependencies": ["recorder"],
+  "documentation": "https://github.com/prodigy7/ha_mainzer_netze",
+  "integration_type": "service",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/prodigy7/ha_mainzer_netze/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
