@@ -1,6 +1,7 @@
 {
   "domain": "mainzer_netze",
   "name": "Mainzer Netze",
+  "categories": ["energy.meters_monitoring"],
   "codeowners": ["@prodigy7"],
   "config_flow": true,
   "dependencies": ["recorder"],
